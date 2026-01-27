@@ -1,0 +1,147 @@
+@font-face {
+  font-family:'Almarai-Bold';
+  src: url('../fonts/Almarai-Bold.ttf');
+}
+@font-face {
+  font-family:'Amiri-Bold';
+  src: url('../fonts/Amiri-Bold.ttf');
+}
+* {
+    box-sizing: border-box;
+    src: url('../fonts/Amiri-Bold.ttf');
+}
+
+body {
+  position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 0;
+    height: 100vh;
+    background:#8000803b;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.head{
+  font-family:'Amiri-Bold';
+  color: #0e035b;
+  font-size:3.2rem;
+  margin-top:20px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  width: 1000px;
+}
+.bg-1{
+  position:absolute;
+  left:-500px;
+  bottom: 0;
+  width:350px;
+  height:350px;
+}
+.bg-2{
+  position:absolute;
+  right:-465px;
+  top:-40px;
+  width:200px;
+  height:200px;
+}
+.rotate-content h1{
+  font-weight:900;
+}
+section{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    width:600px;
+    height:700px;
+}
+section li{
+    margin-top:100px;
+    position: absolute;
+    align-items:center;
+    justify-content:center;
+    transform-origin:300px;
+    left:0;
+    transition: .5s;
+    transition-delay:calc(0.1s * var(--i));
+    transform:rotate(calc(360deg / 10 * var(--i)));
+}
+section li h3{transform:none; font-size:1.2rem;}
+.i-2,.i-4,.i-6, .i-8{color:#000000c4;}
+.i-3,.i-5,.i-7, .i-1{color:#fff;}
+.i-1{
+  background:#b9b9b9;
+}
+.i-2{
+    background:#FFA1F5;
+
+  }
+  .i-3{
+    background:#BC7AF9;
+
+  }
+  .i-4{
+    background:#F8FF95;
+
+  }
+  .i-5{
+    background:#FFB84C;
+
+  }
+  .i-6{
+    background:#45FFCA;
+
+  }
+  .i-7{
+    background:#a6cdf7;
+
+  }
+  .i-8{
+    background:#D0F5BE;
+
+  }
+  .i-9{
+    background:#F6635C;
+
+  }
+  .i-10{
+    background:#219C90;
+
+  }
+
+.problem{
+    position: absolute;
+    height:220px;
+    width:220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:240px;
+    border-radius:50%;
+    border:8px #fff solid;
+    z-index:100000;
+    background:#000;
+    color: #fff;
+    cursor:pointer;
+    transition:transform 1.25s ;
+}
+.reason{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:150px;
+    width:150px;
+    border:3px #fff solid;
+    border-radius:50%;
+    cursor:pointer;
+}
+
+h1{
+    cursor: pointer;
+}
+
+.rotate-content {
+    transform: rotate(calc(-360deg / 10 * var(--i)));
+}
