@@ -42,7 +42,7 @@ Clicking on the **main stress point** resets all points to **red**, simulating h
 ---
 
 ## 📸 Screenshot
-![Project Screenshot](./images/tawjihi-event.png)
+![Project Screenshot](./images/tawjihi event.png)
 
 ---
 
