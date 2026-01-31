@@ -5,6 +5,7 @@ Interactive web project designed and developed for **A+** to support Tawjihi stu
 The project presents 10 key points to help overcome stress in an engaging and interactive way.
 
 ---
+![Project Screenshot](./images/tawjihi-event.png)
 
 ## 🎯 Project Description
 This project was created for a student support session organized by **A+**, focusing on:
@@ -41,10 +42,6 @@ Clicking on the **main stress point** resets all points to **red**, simulating h
 
 ---
 
-## 📸 Screenshot
-![Project Screenshot](./images/tawjihi-event.png)
-
----
 
 ## 🏢 Client
 A+ – Student Support & Awareness Session
